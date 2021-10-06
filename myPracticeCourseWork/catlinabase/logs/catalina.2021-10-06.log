@@ -1,0 +1,48 @@
+06-Oct-2021 10:33:03.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.54
+06-Oct-2021 10:33:03.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2021 13:51:49 UTC
+06-Oct-2021 10:33:03.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.54.0
+06-Oct-2021 10:33:03.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+06-Oct-2021 10:33:03.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.13.19-100.fc33.x86_64
+06-Oct-2021 10:33:03.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Oct-2021 10:33:03.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-11.0.12.0.7-4.fc33.x86_64
+06-Oct-2021 10:33:03.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.12+7
+06-Oct-2021 10:33:03.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Red Hat, Inc.
+06-Oct-2021 10:33:03.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase
+06-Oct-2021 10:33:03.924 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/hakeem/src/solent2Public/myPracticeCourseWork/tomcat/apache-tomcat-9.0.54
+06-Oct-2021 10:33:03.937 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-Oct-2021 10:33:03.937 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-Oct-2021 10:33:03.937 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-Oct-2021 10:33:03.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-Oct-2021 10:33:03.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Oct-2021 10:33:03.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/conf/logging.properties
+06-Oct-2021 10:33:03.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Oct-2021 10:33:03.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|fedora
+06-Oct-2021 10:33:03.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Oct-2021 10:33:03.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Oct-2021 10:33:03.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+06-Oct-2021 10:33:03.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+06-Oct-2021 10:33:03.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase
+06-Oct-2021 10:33:03.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/hakeem/src/solent2Public/myPracticeCourseWork/tomcat/apache-tomcat-9.0.54
+06-Oct-2021 10:33:03.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/temp
+06-Oct-2021 10:33:03.941 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+06-Oct-2021 10:33:04.372 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-Oct-2021 10:33:04.405 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [756] milliseconds
+06-Oct-2021 10:33:04.487 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Oct-2021 10:33:04.487 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.54]
+06-Oct-2021 10:33:04.495 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/conf/Catalina/localhost/ROOT.xml]
+06-Oct-2021 10:33:04.519 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [] in deployment descriptor [/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/conf/Catalina/localhost/ROOT.xml] has been ignored
+06-Oct-2021 10:33:04.797 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/conf/Catalina/localhost/ROOT.xml] has finished in [302] ms
+06-Oct-2021 10:33:04.798 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/conf/Catalina/localhost/manager.xml]
+06-Oct-2021 10:33:04.836 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/conf/Catalina/localhost/manager.xml] has finished in [38] ms
+06-Oct-2021 10:33:04.841 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-Oct-2021 10:33:04.850 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [444] milliseconds
+06-Oct-2021 10:45:49.339 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+06-Oct-2021 10:50:21.670 INFO [http-nio-8080-exec-18] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/conf/Catalina/localhost/exercise1.xml]
+06-Oct-2021 10:50:21.673 WARNING [http-nio-8080-exec-18] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/exercise1] in deployment descriptor [/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/conf/Catalina/localhost/exercise1.xml] has been ignored
+06-Oct-2021 10:50:21.708 INFO [http-nio-8080-exec-18] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/conf/Catalina/localhost/exercise1.xml] has finished in [38] ms
+06-Oct-2021 10:50:21.711 INFO [http-nio-8080-exec-20] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/exercise1]] after start() had already been called. The second call will be ignored.
+06-Oct-2021 12:55:02.112 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+06-Oct-2021 12:55:02.113 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-Oct-2021 12:55:02.120 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-Oct-2021 12:55:02.128 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-Oct-2021 12:55:02.169 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
