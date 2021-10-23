@@ -31,7 +31,20 @@ public class ShoppingCartImpl implements ShoppingCart {
 
     @Override
     public void addItemToCart(ShoppingItem shoppingItem) {
-        itemMap.put(shoppingItem.getUuid(), shoppingItem);
+        boolean itemExists = false;
+        for (String itemUUID : itemMap.keySet()){
+            ShoppingItem shoppingCartItem = itemMap.get(itemUUID);
+            if (shoppingCartItem.getName().equals(shoppingItem.getName())){
+                Integer q = shoppingCartItem.getQuantity();
+                shoppingCartItem.setQuantity(q+1);
+                itemExists = true;
+                break;
+            }
+        }
+        if (!itemExists){
+            shoppingItem.setQuantity(1);
+            itemMap.put(shoppingItem.getUuid(), shoppingItem);
+        }
     }
 
     @Override

@@ -104,7 +104,7 @@
             
             <tr>
                 <td>Total: </td>
-                <td> <%= shoppingCart.getTotal()%> </td>
+                <td><%=shoppingCart.getTotal()%></td>
             </tr>
 
         </table>
