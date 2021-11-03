@@ -1,0 +1,156 @@
+03-Nov-2021 09:13:43.474 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.54
+03-Nov-2021 09:13:43.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2021 13:51:49 UTC
+03-Nov-2021 09:13:43.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.54.0
+03-Nov-2021 09:13:43.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+03-Nov-2021 09:13:43.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.13.19-100.fc33.x86_64
+03-Nov-2021 09:13:43.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Nov-2021 09:13:43.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-11.0.12.0.7-4.fc33.x86_64
+03-Nov-2021 09:13:43.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.12+7
+03-Nov-2021 09:13:43.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Red Hat, Inc.
+03-Nov-2021 09:13:43.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase
+03-Nov-2021 09:13:43.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/hakeem/src/solent2Public/myPracticeCourseWork/tomcat/apache-tomcat-9.0.54
+03-Nov-2021 09:13:43.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Nov-2021 09:13:43.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-Nov-2021 09:13:43.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-Nov-2021 09:13:43.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Nov-2021 09:13:43.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Nov-2021 09:13:43.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/conf/logging.properties
+03-Nov-2021 09:13:43.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Nov-2021 09:13:43.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|fedora
+03-Nov-2021 09:13:43.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Nov-2021 09:13:43.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Nov-2021 09:13:43.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+03-Nov-2021 09:13:43.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-Nov-2021 09:13:43.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase
+03-Nov-2021 09:13:43.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/hakeem/src/solent2Public/myPracticeCourseWork/tomcat/apache-tomcat-9.0.54
+03-Nov-2021 09:13:43.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/temp
+03-Nov-2021 09:13:43.497 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+03-Nov-2021 09:13:43.759 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Nov-2021 09:13:43.778 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [505] milliseconds
+03-Nov-2021 09:13:43.831 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Nov-2021 09:13:43.831 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.54]
+03-Nov-2021 09:13:43.837 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/conf/Catalina/localhost/manager.xml]
+03-Nov-2021 09:13:44.070 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/conf/Catalina/localhost/manager.xml] has finished in [233] ms
+03-Nov-2021 09:13:44.070 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/conf/Catalina/localhost/exercise1.xml]
+03-Nov-2021 09:13:44.071 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/exercise1] in deployment descriptor [/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/conf/Catalina/localhost/exercise1.xml] has been ignored
+03-Nov-2021 09:13:44.099 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/conf/Catalina/localhost/exercise1.xml] has finished in [29] ms
+03-Nov-2021 09:13:44.103 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Nov-2021 09:13:44.113 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [334] milliseconds
+03-Nov-2021 09:13:46.762 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/conf/Catalina/localhost/simplePropertiesDaoWebApp.xml]
+03-Nov-2021 09:13:46.763 WARNING [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/simplePropertiesDaoWebApp] in deployment descriptor [/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/conf/Catalina/localhost/simplePropertiesDaoWebApp.xml] has been ignored
+03-Nov-2021 09:13:46.819 INFO [http-nio-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Nov-2021 09:13:47.226 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/conf/Catalina/localhost/simplePropertiesDaoWebApp.xml] has finished in [465] ms
+03-Nov-2021 09:13:47.236 INFO [http-nio-8080-exec-5] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/simplePropertiesDaoWebApp]] after start() had already been called. The second call will be ignored.
+03-Nov-2021 09:41:16.750 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+03-Nov-2021 09:41:16.751 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Nov-2021 09:41:16.759 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Nov-2021 09:41:16.785 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Nov-2021 09:41:16.806 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Nov-2021 09:42:40.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.54
+03-Nov-2021 09:42:40.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2021 13:51:49 UTC
+03-Nov-2021 09:42:40.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.54.0
+03-Nov-2021 09:42:40.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+03-Nov-2021 09:42:40.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.13.19-100.fc33.x86_64
+03-Nov-2021 09:42:40.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Nov-2021 09:42:40.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-11.0.12.0.7-4.fc33.x86_64
+03-Nov-2021 09:42:40.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.12+7
+03-Nov-2021 09:42:40.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Red Hat, Inc.
+03-Nov-2021 09:42:40.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase
+03-Nov-2021 09:42:40.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/hakeem/src/solent2Public/myPracticeCourseWork/tomcat/apache-tomcat-9.0.54
+03-Nov-2021 09:42:40.135 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Nov-2021 09:42:40.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-Nov-2021 09:42:40.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-Nov-2021 09:42:40.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Nov-2021 09:42:40.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Nov-2021 09:42:40.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/conf/logging.properties
+03-Nov-2021 09:42:40.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Nov-2021 09:42:40.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|fedora
+03-Nov-2021 09:42:40.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Nov-2021 09:42:40.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Nov-2021 09:42:40.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+03-Nov-2021 09:42:40.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=11550,server=y,suspend=n
+03-Nov-2021 09:42:40.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-Nov-2021 09:42:40.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase
+03-Nov-2021 09:42:40.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/hakeem/src/solent2Public/myPracticeCourseWork/tomcat/apache-tomcat-9.0.54
+03-Nov-2021 09:42:40.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/temp
+03-Nov-2021 09:42:40.139 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+03-Nov-2021 09:42:40.656 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Nov-2021 09:42:40.688 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [857] milliseconds
+03-Nov-2021 09:42:40.781 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Nov-2021 09:42:40.781 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.54]
+03-Nov-2021 09:42:40.791 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/conf/Catalina/localhost/manager.xml]
+03-Nov-2021 09:42:41.163 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/conf/Catalina/localhost/manager.xml] has finished in [371] ms
+03-Nov-2021 09:42:41.164 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/conf/Catalina/localhost/exercise1.xml]
+03-Nov-2021 09:42:41.167 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/exercise1] in deployment descriptor [/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/conf/Catalina/localhost/exercise1.xml] has been ignored
+03-Nov-2021 09:42:41.204 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/conf/Catalina/localhost/exercise1.xml] has finished in [40] ms
+03-Nov-2021 09:42:41.205 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/conf/Catalina/localhost/simplePropertiesDaoWebApp.xml]
+03-Nov-2021 09:42:41.206 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/simplePropertiesDaoWebApp] in deployment descriptor [/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/conf/Catalina/localhost/simplePropertiesDaoWebApp.xml] has been ignored
+03-Nov-2021 09:42:41.299 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Nov-2021 09:42:41.883 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/conf/Catalina/localhost/simplePropertiesDaoWebApp.xml] has finished in [677] ms
+03-Nov-2021 09:42:41.887 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Nov-2021 09:42:41.899 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1211] milliseconds
+03-Nov-2021 09:42:43.450 INFO [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/simplePropertiesDaoWebApp]
+03-Nov-2021 09:42:43.475 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/conf/Catalina/localhost/simplePropertiesDaoWebApp.xml]
+03-Nov-2021 09:42:43.478 WARNING [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/simplePropertiesDaoWebApp] in deployment descriptor [/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/conf/Catalina/localhost/simplePropertiesDaoWebApp.xml] has been ignored
+03-Nov-2021 09:42:43.564 INFO [http-nio-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Nov-2021 09:42:44.083 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/conf/Catalina/localhost/simplePropertiesDaoWebApp.xml] has finished in [608] ms
+03-Nov-2021 09:42:44.092 INFO [http-nio-8080-exec-6] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/simplePropertiesDaoWebApp]] after start() had already been called. The second call will be ignored.
+03-Nov-2021 09:45:21.231 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+03-Nov-2021 09:45:21.232 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Nov-2021 09:45:21.241 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Nov-2021 09:45:21.255 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Nov-2021 09:45:21.288 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Nov-2021 10:07:28.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.54
+03-Nov-2021 10:07:28.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2021 13:51:49 UTC
+03-Nov-2021 10:07:28.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.54.0
+03-Nov-2021 10:07:28.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+03-Nov-2021 10:07:28.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.13.19-100.fc33.x86_64
+03-Nov-2021 10:07:28.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Nov-2021 10:07:28.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-11.0.12.0.7-4.fc33.x86_64
+03-Nov-2021 10:07:28.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.12+7
+03-Nov-2021 10:07:28.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Red Hat, Inc.
+03-Nov-2021 10:07:28.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase
+03-Nov-2021 10:07:28.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/hakeem/src/solent2Public/myPracticeCourseWork/tomcat/apache-tomcat-9.0.54
+03-Nov-2021 10:07:28.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Nov-2021 10:07:28.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-Nov-2021 10:07:28.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-Nov-2021 10:07:28.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Nov-2021 10:07:28.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Nov-2021 10:07:28.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/conf/logging.properties
+03-Nov-2021 10:07:28.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Nov-2021 10:07:28.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|fedora
+03-Nov-2021 10:07:28.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Nov-2021 10:07:28.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Nov-2021 10:07:28.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+03-Nov-2021 10:07:28.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-Nov-2021 10:07:28.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase
+03-Nov-2021 10:07:28.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/hakeem/src/solent2Public/myPracticeCourseWork/tomcat/apache-tomcat-9.0.54
+03-Nov-2021 10:07:28.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/temp
+03-Nov-2021 10:07:28.862 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+03-Nov-2021 10:07:29.178 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Nov-2021 10:07:29.200 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [568] milliseconds
+03-Nov-2021 10:07:29.248 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Nov-2021 10:07:29.248 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.54]
+03-Nov-2021 10:07:29.258 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/conf/Catalina/localhost/manager.xml]
+03-Nov-2021 10:07:29.491 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/conf/Catalina/localhost/manager.xml] has finished in [234] ms
+03-Nov-2021 10:07:29.492 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/conf/Catalina/localhost/exercise1.xml]
+03-Nov-2021 10:07:29.492 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/exercise1] in deployment descriptor [/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/conf/Catalina/localhost/exercise1.xml] has been ignored
+03-Nov-2021 10:07:29.519 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/conf/Catalina/localhost/exercise1.xml] has finished in [26] ms
+03-Nov-2021 10:07:29.519 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/conf/Catalina/localhost/simplePropertiesDaoWebApp.xml]
+03-Nov-2021 10:07:29.519 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/simplePropertiesDaoWebApp] in deployment descriptor [/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/conf/Catalina/localhost/simplePropertiesDaoWebApp.xml] has been ignored
+03-Nov-2021 10:07:29.581 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Nov-2021 10:07:29.988 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/conf/Catalina/localhost/simplePropertiesDaoWebApp.xml] has finished in [469] ms
+03-Nov-2021 10:07:29.996 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Nov-2021 10:07:30.004 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [804] milliseconds
+03-Nov-2021 10:07:34.461 INFO [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/simplePropertiesDaoWebApp]
+03-Nov-2021 10:07:34.497 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/conf/Catalina/localhost/simplePropertiesDaoWebApp.xml]
+03-Nov-2021 10:07:34.501 WARNING [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/simplePropertiesDaoWebApp] in deployment descriptor [/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/conf/Catalina/localhost/simplePropertiesDaoWebApp.xml] has been ignored
+03-Nov-2021 10:07:34.553 INFO [http-nio-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Nov-2021 10:07:34.849 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/hakeem/src/solent2Public/myPracticeCourseWork/catlinabase/conf/Catalina/localhost/simplePropertiesDaoWebApp.xml] has finished in [352] ms
+03-Nov-2021 10:07:34.856 INFO [http-nio-8080-exec-2] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/simplePropertiesDaoWebApp]] after start() had already been called. The second call will be ignored.
+03-Nov-2021 10:07:55.233 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/simplePropertiesDaoWebApp]
+03-Nov-2021 10:08:12.853 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+03-Nov-2021 10:08:12.853 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Nov-2021 10:08:12.861 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Nov-2021 10:08:12.866 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Nov-2021 10:08:12.908 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
