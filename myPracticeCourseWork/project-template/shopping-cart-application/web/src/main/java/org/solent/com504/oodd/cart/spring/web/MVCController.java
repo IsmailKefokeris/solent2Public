@@ -53,9 +53,57 @@ public class MVCController {
     public String index(Model model) {
         return "redirect:/index.html";
     }
+    
+    @RequestMapping(value = "/cart", method = {RequestMethod.GET, RequestMethod.POST})
+    public String viewCart(@RequestParam(name = "action", required = false) String action,
+            @RequestParam(name = "itemName", required = false) String itemName,
+            @RequestParam(name = "itemUUID", required = false) String itemUuid,
+            Model model,
+            HttpSession session) {
+        
+        // get sessionUser from session
+        User sessionUser = getSessionUser(session);
+        model.addAttribute("sessionUser", sessionUser);
+
+        // used to set tab selected
+        model.addAttribute("selectedPage", "cart");
+        
+//        Predetermend message variables.
+        String message = "";
+        String errorMessage = "";
+        
+//        Checking what action may or may not have occured on the page.
+        if (action == null) {
+            // do nothing but show page
+        } else if ("addItemToCart".equals(action)) {
+            ShoppingItem shoppingItem = shoppingService.getNewItemByName(itemName);
+            if (shoppingItem == null) {
+                message = "cannot add unknown " + itemName + " to cart";
+            } else {
+                message = "adding " + itemName + " to cart price= " + shoppingItem.getPrice();
+                shoppingCart.addItemToCart(shoppingItem);
+            }
+        } else if ("removeItemFromCart".equals(action)) {
+            message = "removed " + itemName + " from cart";
+            shoppingCart.removeItemFromCart(itemUuid);
+        } else {
+            message = "unknown action=" + action;
+        }
+        
+        List<ShoppingItem> shoppingCartItems = shoppingCart.getShoppingCartItems();
+
+        Double shoppingcartTotal = shoppingCart.getTotal();
+        
+        model.addAttribute("shoppingCartItems", shoppingCartItems);
+        model.addAttribute("shoppingcartTotal", shoppingcartTotal);
+        model.addAttribute("message", message);
+        model.addAttribute("errorMessage", errorMessage);
+        
+        return "cart";
+    }
 
     @RequestMapping(value = "/home", method = {RequestMethod.GET, RequestMethod.POST})
-    public String viewCart(@RequestParam(name = "action", required = false) String action,
+    public String viewShop(@RequestParam(name = "action", required = false) String action,
             @RequestParam(name = "itemName", required = false) String itemName,
             @RequestParam(name = "itemUUID", required = false) String itemUuid,
             Model model,
